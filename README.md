@@ -6,3 +6,4 @@ Tools: PostgreSQL, Power BI
 
 ## Dashboard
 ![Dashboard Preview](powerbi/dashboard_preview.png)
+[View interactive dashboards on Power Bi Public]
