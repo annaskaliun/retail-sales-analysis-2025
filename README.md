@@ -28,3 +28,16 @@ Prepare and validate data  using PostgreSQL, then build analytical views for Pow
 - **Saturday** is the most active day of the week
 
 This tool supports data-driven decisions on assortment, inventory planning, and marketing.
+
+## Recommendations
+
+-- Increase focus on Category 2
+Category 2 is a key sales driver. This category deserves closer attention in terms of product availability, pricing strategy, and promotional activity.
+-- Maintain strong availability of Product A and Product B
+These products are critical for stable demand and inventory planning.
+-- Use the strongest months for promotions and planning
+January, June, and September are the strongest months. These periods can be used to scale campaigns and evaluate seasonal demand patterns.
+-- Pay attention to weaker periods
+Weaker months such as April, October, and February may be good candidates for targeted promotions or assortment adjustments.
+-- Use weekday patterns in operational planning
+Since Saturday shows the highest sales volume, this pattern can be considered in staffing, inventory allocation, and marketing activity.
