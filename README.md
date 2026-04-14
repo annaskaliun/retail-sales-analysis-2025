@@ -5,7 +5,7 @@ Retail sales analysis project based on 2025 retail sales data.
 **Tools:** PostgreSQL, Power BI
 
 ## Dashboard
-![Dashboard Preview](powerbi/dashboard_preview.png) 
+![Dashboard Preview](powerbi/dashboard_preview1.png) 
 
 ## Dataset
 The dataset contains **10,000** transaction records for **2025**, including order, product, customer, quantity, price, category, and order date fields.
