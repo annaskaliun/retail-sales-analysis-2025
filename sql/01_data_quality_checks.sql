@@ -25,7 +25,7 @@ SELECT order_id
     , product_id
     , COUNT(*) AS duplicate_count
 FROM public.combined_sales_data_2025
-GROUP BY 1,2
+GROUP BY order_id, product_id
 HAVING count(*) > 1
 
 -- Check 3: one customer_id linked to multiple customer_name values
@@ -33,7 +33,7 @@ HAVING count(*) > 1
 SELECT customer_id
     , COUNT(DISTINCT customer_name) AS customer_name_count
 FROM public.combined_sales_data_2025
-GROUP BY 1
+GROUP BY customer_id
 HAVING COUNT(DISTINCT customer_name) > 1
 
 -- Check 4: one customer_name linked to multiple customer_id values
@@ -42,5 +42,5 @@ HAVING COUNT(DISTINCT customer_name) > 1
 SELECT customer_name
     , COUNT(DISTINCT customer_id ) AS customer_id_count
 FROM public.combined_sales_data_2025
-GROUP BY 1
+GROUP BY customer_name
 HAVING COUNT(DISTINCT customer_id) > 1
